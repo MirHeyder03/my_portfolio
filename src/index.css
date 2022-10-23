@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto:wght@100;400;500;700;900&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+/* @import url("src/sass/helpers.scss"); */
+.aboutEndCards {
+    box-shadow: rgb(25 40 46 / 50%) 0px 5px 5px 0px, rgb(33 36 37) 0px 0px 0px 1px;
+  }
+  
