@@ -8,14 +8,14 @@ function Header() {
       <nav className="py-4 text-white bg-[#1A2238]  select-none ">
         <div className="flex items-center justify-around ">
           <div className="ml-2">
-            <NavLink to="/" className="text-4xl font-bold select-none">
+            <a href="/" className="text-4xl font-bold select-none">
               Musavi
-            </NavLink>
+            </a>
           </div>
           <div className="hidden text-xl gap-7 lg:flex">
-            <NavLink to="/" className="hover:opacity-50">
+            <a href="/" className="hover:opacity-50">
               Home
-            </NavLink>
+            </a>
             <a href="#about" className="hover:opacity-50">
               About
             </a>
