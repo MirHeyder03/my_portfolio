@@ -24,8 +24,10 @@ function Header() {
               Musavi
             </a>
           </div>
-          <div className="flex flex-col gap-20 max-smm:w-full md:w-auto">
-            <div className={isNavOpen ? "ml-auto md:mr-16 mr-8 mt-10" : "hidden"}>
+          <div className="flex flex-col w-full gap-20 lg:w-auto">
+            <div
+              className={isNavOpen ? "ml-auto md:mr-16 mr-8 mt-10" : "hidden"}
+            >
               <button onClick={() => setIsNavOpen(false)}>
                 <ImCross className={"text-white text-3xl"} />
               </button>
@@ -60,7 +62,7 @@ function Header() {
               </a>
             </div>
           </div>
-          <div class="flex lg:hidden">
+          <div className="flex lg:hidden">
             <button onClick={() => setIsNavOpen(true)}>
               <AiOutlineMenu
                 className={isNavOpen ? "text-3xl hidden" : "block"}

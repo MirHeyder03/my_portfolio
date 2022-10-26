@@ -7,7 +7,7 @@ const AboutHead = () => {
         Full Stack Developer
       </h3>
       <h4 className="text-2xl md:text-3xl max-sm:text-xl">I love what I do.</h4>
-      <p className="max-w-md mx-auto space-x-12 text-lg text-gray-600 md:max-w-xl max-sm:text-sm md:text-xl">
+      <p className="mx-auto space-x-12 text-lg text-gray-600 max-smm:max-w-xs max-sm:max-w-xs lg:max-w-lg sm:max-w-sm md:max-w-xl max-sm:text-sm md:text-xl">
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, unde
         pariatur repudiandae temporibus rem inventore aliquam esse quo. Beatae
         iusto adipisci illo dolor doloribus! Magni inventore omnis sint laborum

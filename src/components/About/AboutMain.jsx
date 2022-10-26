@@ -8,6 +8,7 @@ const AboutMain = () => {
             src="https://pbs.twimg.com/profile_images/1011277014924496897/aTMLLVVZ_400x400.jpg"
             width={100}
             height={100}
+            className="mx-auto rounded-3xl"
           />
           <h3 className="pt-8 pb-2 text-2xl font-medium ">Frontend</h3>
           <h4 className="py-4 text-xl text-teal-600">Languages</h4>
@@ -16,7 +17,10 @@ const AboutMain = () => {
           </p>
           <h4 className="py-4 text-xl text-teal-600">Texnolgies</h4>
           <p className="py-1 text-lg font-bold text-gray-800">
-            Bootstrap  MaterialUI  TailwindCSS 
+            Bootstrap MaterialUI TailwindCSS Sass
+          </p>
+          <p className="py-1 text-lg font-bold text-gray-800">
+            React Redux/toolkit
           </p>
         </div>
         <div className="items-center justify-center flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-white">
@@ -24,13 +28,14 @@ const AboutMain = () => {
             src="https://pbs.twimg.com/profile_images/1011277014924496897/aTMLLVVZ_400x400.jpg"
             width={100}
             height={100}
+            className="mx-auto rounded-3xl"
           />
           <h3 className="pt-8 pb-2 text-2xl font-medium ">Backend</h3>
           <h4 className="py-4 text-xl text-teal-600">Languages</h4>
           <p className="py-1 text-lg font-bold text-gray-800">JavaScript</p>
           <h4 className="py-4 text-xl text-teal-600">Texnolgies</h4>
           <p className="py-1 text-lg font-bold text-gray-800">
-            Node  Express  Mongo 
+            Node Express Mongo
           </p>
         </div>
         <div className="items-center justify-center flex-1 p-10 my-10 text-center shadow-lg rounded-xl dark:bg-white">
@@ -38,10 +43,13 @@ const AboutMain = () => {
             src="https://pbs.twimg.com/profile_images/1011277014924496897/aTMLLVVZ_400x400.jpg"
             width={100}
             height={100}
+            className="mx-auto rounded-3xl"
           />
           <h3 className="pt-8 pb-2 text-2xl font-medium ">Backend</h3>
           <h4 className="py-4 text-xl text-teal-600">Languages</h4>
-          <p className="py-1 overflow-hidden text-lg font-bold text-gray-800">xxxxxxxxxxxxxxxx</p>
+          <p className="py-1 overflow-hidden text-lg font-bold text-gray-800">
+            xxxxxxxxxxxxxxxx
+          </p>
           <h4 className="py-4 text-xl text-teal-600">Texnolgies</h4>
           <p className="py-1 overflow-hidden text-lg font-bold text-gray-800">
             xxxxxxxxxxxxxxxx
