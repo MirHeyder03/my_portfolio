@@ -6,14 +6,12 @@ const AboutHead = () => {
       <h3 className="text-4xl md:text-5xl max-smm:text-3xl">
         Full Stack Developer
       </h3>
-      <h4 className="text-2xl md:text-3xl max-sm:text-xl">I love what I do.</h4>
+      <h4 className="text-2xl md:text-3xl max-sm:text-xl">I love what I do</h4>
       <p className="mx-auto space-x-12 text-lg text-gray-600 max-smm:max-w-xs max-sm:max-w-xs lg:max-w-lg sm:max-w-sm md:max-w-xl max-sm:text-sm md:text-xl">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero, unde
-        pariatur repudiandae temporibus rem inventore aliquam esse quo. Beatae
-        iusto adipisci illo dolor doloribus! Magni inventore omnis sint laborum
-        eaque. Accusamus hic sit, itaque nihil recusandae expedita incidunt quia
-        sed, explicabo quibusdam saepe tenetur tempora assumenda vero doloremque
-        nobis laudantium!
+        Hard worker with great passion for innovation and work. Currently
+        looking for THE company which is the place of gaining experience and
+        friends. As well as to benefit to the organization I work with my energy
+        and experience
       </p>
     </div>
   );

@@ -1,5 +1,5 @@
 import React from "react";
-const AboutMain = () => {
+const index = () => {
   return (
     <section className="px-10 py-10 md:px-20 sm:px-15 bg-[#1A2238]">
       <div className="gap-10 lg:flex">
@@ -45,19 +45,16 @@ const AboutMain = () => {
             height={100}
             className="mx-auto rounded-3xl"
           />
-          <h3 className="pt-8 pb-2 text-2xl font-medium ">Backend</h3>
-          <h4 className="py-4 text-xl text-teal-600">Languages</h4>
+          <h3 className="pt-8 pb-2 text-2xl font-medium ">Cyber Security</h3>
+          <h4 className="py-4 text-xl text-teal-600">Skills</h4>
           <p className="py-1 overflow-hidden text-lg font-bold text-gray-800">
-            xxxxxxxxxxxxxxxx
+            Linux , Network
           </p>
-          <h4 className="py-4 text-xl text-teal-600">Texnolgies</h4>
-          <p className="py-1 overflow-hidden text-lg font-bold text-gray-800">
-            xxxxxxxxxxxxxxxx
-          </p>
+          <h4 className="py-4 text-xl text-teal-600"></h4>
         </div>
       </div>
     </section>
   );
 };
 
-export default AboutMain;
+export default index;

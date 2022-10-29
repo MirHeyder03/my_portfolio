@@ -4,6 +4,8 @@ import Header from "../layout/Header";
 import NotFound from "../NotFound";
 import About from "../About";
 import Contact from "../Contact";
+import Skills from "../Skills";
+import Portofolio from "../Portofolio";
 
 const index = () => {
   window.onscroll = function () {
@@ -30,7 +32,9 @@ const index = () => {
       </div>
       <Header />
       <About />
+      <Skills />
       <Contact />
+      <Portofolio />
       {/* <NotFound /> */}
       <Footer />
     </div>

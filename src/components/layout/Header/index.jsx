@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMenu } from "react-icons/ai";
 import { ImCross } from "react-icons/im";
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -24,7 +25,7 @@ function Header() {
               Musavi
             </a>
           </div>
-          <div className="flex flex-col w-full gap-20 lg:w-auto">
+          <div className="flex flex-col items-center w-full gap-20 lg:w-auto">
             <div
               className={isNavOpen ? "ml-auto md:mr-16 mr-8 mt-10" : "hidden"}
             >
@@ -41,24 +42,44 @@ function Header() {
             >
               <a
                 onClick={() => setIsNavOpen(false)}
-                href="#"
-                className="hover:opacity-50"
+                to="/"
+                className="leading-10 hover:opacity-50"
               >
                 Home
               </a>
               <a
                 onClick={() => setIsNavOpen(false)}
                 href="#about"
-                className="hover:opacity-50"
+                className="leading-10 hover:opacity-50"
               >
                 About
               </a>
               <a
                 onClick={() => setIsNavOpen(false)}
+                href="#skills"
+                className="leading-10 hover:opacity-50"
+              >
+                Skills
+              </a>
+              <a
+                onClick={() => setIsNavOpen(false)}
                 href="#contact"
-                className="hover:opacity-50"
+                className="leading-10 hover:opacity-50"
               >
                 Contact
+              </a>
+              <a
+                onClick={() => setIsNavOpen(false)}
+                href="#portofolio"
+                className="leading-10 hover:opacity-50"
+              >
+                Portofolio
+              </a>
+              <a
+                className="max-w-[10rem] mx-auto px-4 py-1 text-white border-none rounded-xl bg-gradient-to-r from-cyan-500 text- to-teal-500 hover:opacity-50 text-center leading-8"
+                href="#"
+              >
+                Resume
               </a>
             </div>
           </div>
