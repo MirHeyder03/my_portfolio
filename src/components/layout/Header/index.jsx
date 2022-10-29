@@ -16,7 +16,7 @@ function Header() {
         >
           <div className="ml-2">
             <a
-              href="/"
+              href="#"
               className={
                 isNavOpen ? "hidden" : "text-2xl font-bold select-none"
               }
@@ -41,7 +41,7 @@ function Header() {
             >
               <a
                 onClick={() => setIsNavOpen(false)}
-                href="/"
+                href="#"
                 className="hover:opacity-50"
               >
                 Home
@@ -65,7 +65,7 @@ function Header() {
           <div className="flex lg:hidden">
             <button onClick={() => setIsNavOpen(true)}>
               <AiOutlineMenu
-                className={isNavOpen ? "text-3xl hidden" : "block"}
+                className={isNavOpen ? "hidden" : "text-3xl block"}
               />
             </button>
           </div>
